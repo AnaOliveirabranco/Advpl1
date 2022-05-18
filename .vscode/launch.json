@@ -24,8 +24,51 @@
 		{
 			"args": [],
 			"label": "U_test1205"
+		},
+		{
+			"label": "AULA1"
+		},
+		{
+			"label": "u_AULA0001"
+		},
+		{
+			"args": [],
+			"label": "u_AULA0001"
+		},
+		{
+			"args": [],
+			"label": "u_Vartipo"
+		},
+		{
+			"label": "U_aula0004"
+		},
+		{
+			"args": [],
+			"label": "U_aula0004"
+		},
+		{
+			"args": [],
+			"label": "U_aula00004"
+		},
+		{
+			"args": [],
+			"label": "u_EserFor"
+		},
+		{
+			"args": [
+				"0"
+			],
+			"label": "u_EserFor"
+		},
+		{
+			"args": [],
+			"label": "u_ExerFor"
+		},
+		{
+			"args": [],
+			"label": "u_ExerFor1"
 		}
 	],
-	"lastProgramExecuted": "U_test1205",
+	"lastProgramExecuted": "u_ExerFor1",
 	"lastProgramArgumens": []
 }

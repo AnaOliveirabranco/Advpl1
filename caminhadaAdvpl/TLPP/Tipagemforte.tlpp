@@ -1,0 +1,51 @@
+/*-------variaves---------------------------
+1 Char/caracter  -->  é utilizado para gravar informações tipo caracter
+2 Number         -->  é utilixado para gravar informação tipo numerico,
+3 Date           -->  é utilixado para gravar informação tipo data,
+4 Logico(boolean)-->  é utilixado para gravar informação tru ou falce (.T. ou .F.),
+5 Array          -->  é utilixado para gravar uma coleçao informações só char ou só number,
+6 Block/codublock(bloco de codigo) -->  é utilixado para gravar uma coleção de comandos que
+                                      podem ser macroexecultados parecido com o Arrey só ele grava comandos.
+7 Obeject        -->  é utilixado para gravar um objeto que pode ser utilizado para criar uma interface.
+8 Null           --> ou nulo.
+----------------tipos de Escopo de Varialvel em ADVPL --------------
+Local          ---> é visivel apenas na funçãç onde ela foi criada.
+Private        ---> é visivel da função onde foi criada e nas funções seguintes.
+Public         ---> é visivel en todas as funções apartir do momento em que ela foi criada.
+static         ---> está disponivel em todas as funções dentro do fonte onde foi criada.
+                    pode ser declarada fora da funçaõ (no cabeçalho do fonte.).
+*/
+#INCLUDE "rwmake.ch"
+#INCLUDE "topconn.ch"
+#INCLUDE "TOTVS.ch"
+#INCLUDE "Protheus.ch"
+
+user function aula00004()
+
+Local cVar1 := "Local"
+
+Private cVar2:= "Private"
+
+u_aula00005()
+
+Alert(cvar3)
+Alert(cvar4)
+
+
+return
+
+user function aula00005()
+   Public cVar3 := "public"
+   Private cVar4:= "privat2"
+    Alert(cVar2) //Private
+    Alert(cVar3) //Public
+
+U_aula00006()
+
+RETURN
+user Function aula00006()
+
+    Alert(cVar3) //Public
+    Alert(cVar2) //Private
+
+    Return

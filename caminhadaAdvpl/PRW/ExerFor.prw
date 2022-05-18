@@ -25,11 +25,11 @@ for nInicio := 10 To nFim2 Step 10
     if nInicio == 90
         Alert("Fim do loop em (90)")
         Exit
-    ENDI
+    ENDIF
 
     if nInicio == 50 
         loop
-    endif
+    ENDIF
 
     MsgInfo(nInicio,"For com if ")
 NEXT
